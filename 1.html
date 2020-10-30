@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/mojcss.css">
+    </head>
+
+    <body>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                text-decoration: none;
+                list-style-type: none;
+                box-sizing: border-box;
+            }
+
+            nav {
+                background: #99ccff;
+                height: 200px;
+                width: 100%;
+            }
+
+            nav img {
+                height: 200px;
+                width: 550px;
+            }
+
+            nav ul {
+                float: right;
+                margin-right: 50px;
+                margin-top: 50px;
+            }
+
+            nav ul li {
+                display: inline-block;
+                line-height: 80px;
+                margin: 0 5px;
+            }
+
+            nav ul li a {
+                color: white;
+                font-size: 20px;
+                text-transform: uppercase;
+                padding: 7px 13px;
+                border-radius: 3px;
+
+            }
+
+            .active,
+            a:hover {
+                background: royalblue;
+                transition: all 0.5s;
+            }
+        </style>
+        <nav>
+            <img src="./images/slika.jpg" alt="logo">
+            <ul>
+                <li><a href="Pocetna.html" class="active">Pocetna</a></li>
+                <li><a href="Registracija.html">Registracija</a></li>
+                <li><a href="Galerija">Galerija</a></li>
+                <li><a href="Popusti">Popusti</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="moto">
+            <h2>
+                <center>Najbolji izbor monitora</center>
+            </h2>
+        </div>
+
+        <div class="sadrzaj">
+            <div class="prviSadrzaj">
+
+                <form class="forma" method="POST">
+                    <legend class="prvi">Registracija</legend>
+                    Ime: <input type="text" class="unos" name="ime" placeholder="Unesite Ime">
+                    Prezime: <input type="text" class="unos" name="prezime" placeholder="Unesite Prezime">
+                    Email@: <input type="text" class="unos" name="email" placeholder="Unesite vas email">
+                    <p>Pol:</p>
+                    <hr color=black; width=100%>
+                    <label for="Musko">Musko</label>
+                    <input type="checkbox" class="unos" name="musko">
+                    <label for="Zensko">Zensko</label>
+                    <input type="checkbox" class="unos" name="zensko">
+                    Telefon: <input type="text" class="unos" name="telefon" placeholder="Unesite vas broj telefona">
+                    <label for="cars">Omiljena marka:</label>
+                    <select id="Marka" name="marka">
+                        <option value="Alienware">Alienware</option>
+                        <option value="BENQ">BENQ</option>
+                        <option value="Samsung">Samsung</option>
+                        <option value="Asus">Asus</option>
+                        <option value="Acer">Acer</option>
+                        <option value="Dell">Dell</option>
+                    </select>
+                    <input type="submit" value="Potvrdi">
+                </form>
+            </div>
+            <div class="drugideo">
+                <div class="proizvodi">
+                    <div class="boxsadrzaj">
+                        <div class="slika">
+                            <h2 class="naziv">
+                                ASUS ROG Swift PG279Q
+                            </h2>
+                            <hr>
+                            <img src="./images/slika1.jpg">
+
+                        </div>
+                        <hr>
+                        <h3 class="cena">Cena: 550e</h3>
+                        <input class="kolicina" type="number" name="kol" placeholder="Kol">
+                        <input class="korpa" type="submit" value="Dodaj u korpu">
+                    </div>
+                    <div class="boxsadrzaj">
+                        <div class="slika">
+                            <h2 class="naziv">
+                                Acer Predator XB273K
+
+                            </h2>
+                            <hr>
+                            <img src="./images/slika2.jpg">
+
+                        </div>
+                        <hr>
+                        <h3 class="cena">Cena: 800e</h3>
+                        <input class="kolicina" type="number" name="kol" placeholder="Kol">
+                        <input class="korpa" type="submit" value="Dodaj u korpu">
+                    </div>
+                    <div class="boxsadrzaj">
+                        <div class="slika">
+                            <h2 class="naziv">
+                                Pixio PX277 Prime
+                            </h2>
+                            <hr>
+                            <img src="./images/slika3.jpg">
+
+                        </div>
+                        <hr>
+                        <h3 class="cena">Cena: 420e</h3>
+                        <input class="kolicina" type="number" name="kol" placeholder="Kol">
+                        <input class="korpa" type="submit" value="Dodaj u korpu">
+                    </div>
+                    <div class="boxsadrzaj">
+                        <div class="slika">
+                            <h2 class="naziv">
+                                BenQ EL2870U
+
+                            </h2>
+                            <hr>
+                            <img src="./images/slika4.jpg">
+
+                        </div>
+                        <hr>
+                        <h3 class="cena">Cena: 300e</h3>
+                        <input class="kolicina" type="number" name="kol" placeholder="Kol">
+                        <input class="korpa" type="submit" value="Dodaj u korpu">
+                    </div>
+                    <div class="boxsadrzaj">
+                        <div class="slika">
+                            <h2 class="naziv">
+                                Acer XR382CQK
+                            </h2>
+                            <hr>
+                            <img src="./images/slika5.jpg">
+
+                        </div>
+                        <hr>
+                        <h3 class="cena">Cena: 550e</h3>
+                        <input class="kolicina" type="number" name="kol" placeholder="Kol">
+                        <input class="korpa" type="submit" value="Dodaj u korpu">
+                    </div>
+                    <div class="boxsadrzaj">
+                        <div class="slika">
+                            <h2 class="naziv">
+                                ASUS ROG Swift PG279Q
+                            </h2>
+                            <hr>
+                            <img src="./images/slika6.jpg">
+
+                        </div>
+                        <hr>
+                        <h3 class="cena">Cena: 550e</h3>
+                        <input class="kolicina" type="number" name="kol" placeholder="Kol">
+                        <input class="korpa" type="submit" value="Dodaj u korpu">
+
+                    </div>
+                    <div class="boxsadrzaj">
+                        <div class="slika">
+                            <h2 class="naziv">
+                                BenQ Zowie XL2411P
+
+                            </h2>
+                            <hr>
+                            <img src="./images/slika7.jpg">
+
+                        </div>
+                        <hr>
+                        <h3 class="cena">Cena: 200e</h3>
+                        <input class="kolicina" type="number" name="kol" placeholder="Kol">
+                        <input class="korpa" type="submit" value="Dodaj u korpu">
+                    </div>
+                    <div class="boxsadrzaj">
+                        <div class="slika">
+                            <h2 class="naziv">
+                                ROG STRIX XG17AHPE
+
+
+                            </h2>
+                            <hr>
+                            <img src="./images/slika8.png">
+
+                        </div>
+                        <hr>
+                        <h3 class="cena">Cena: 400e</h3>
+                        <input class="kolicina" type="number" name="kol" placeholder="Kol">
+                        <input class="korpa" type="submit" value="Dodaj u korpu">
+                    </div>
+                    <div class="boxsadrzaj">
+                        <div class="slika">
+                            <h2 class="naziv">
+                                Alienware 25 AW2521HF
+
+                            </h2>
+                            <hr>
+                            <img src="./images/slika9.png">
+
+                        </div>
+                        <hr>
+                        <h3 class="cena">Cena: 350e</h3>
+                        <input class="kolicina" type="number" name="kol" placeholder="Kol">
+                        <input class="korpa" type="submit" value="Dodaj u korpu">
+                    </div>
+                </div>
+
+            </div>
+
+                <div class="commercials">
+                    <div class="reklama">
+                        ROG Swift 360Hz PG259QN
+                        <img src="./images/slika10.png">
+                        ASUS ROG Swift 360Hz PG259QN eSports NVIDIA® G-SYNC® Gaming Monitor – 24.5 inch FHD (1920 x 1080), 360 Hz, Fast IPS, 1 ms (GTG), HDR, NVIDIA ULMB
+                    </div>
+                    <div class="reklama">
+                        Samsung 49-Inch CHG90 
+                        <img src="./images/slika11.png">
+                        The ultra-wide 49-inch screen with its innovative 32:9 aspect ratio means you always get to see game scenes in their entirety, exactly as their developers intended. And the 1800R curved panel immerses you in gameplay and delivers cinematic viewing for movies and video content.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Nemanja Bugarski s40/19 nbugarski4019s@raf.rs 065-87*****
+        </footer>
+    </body>
+
+</html>
